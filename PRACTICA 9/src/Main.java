@@ -17,11 +17,6 @@ public class Main {
         return true;
     }
     public static void main(String[] args) {
-        // Create your own Callable class that implements Callable
-                    // Inside the Callable class: add a private List<Integer> attribute
-                    // Inside the Callable class: add the constructor of the class
-                    // Inside the Callable class: override the call method
-
         final int MAX_RANGE = 1000000;
         final int NUM_THREADS = 10;
         long time_ini = System.currentTimeMillis();
