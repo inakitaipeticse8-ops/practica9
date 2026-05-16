@@ -13,7 +13,7 @@ public class ejemploScheduledFuture {
 
 
         // Create a ScheduledExecutorService object
-        ScheduledThreadPoolExecutor executor = new ScheduledThreadPoolExecutor(2);
+        ScheduledExecutorService executor = new ScheduledThreadPoolExecutor(2);
 
         // Create a Callable<String> object task that prints the time and returns the following text "end of task <<name>>"
         Callable<String> task1 = new Callable<String>() {
